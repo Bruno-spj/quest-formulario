@@ -1,0 +1,91 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background: url(../imagens/background-img.jpg);
+  background-size: contain;
+  height: 100vh;
+}
+
+main .container{
+  display: flex;
+  height: 100vh;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+}
+
+.container .info-doubt{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: #fff;
+}
+
+.container .title{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 11px;
+  
+}
+
+.container .text-doubt{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-left: 3px;
+}
+
+main .container-form{
+  background-color: #fff;
+  padding: 20px;
+  width: 340px;
+}
+.container-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form input{
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-form textarea{
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 7px;
+}
+
+.container .Required field{
+  font-size: 15px;
+  font-weight: 400;
+}
+.container-form .btn-submit{
+  padding: 12px 120px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3CCC87;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.input-vazio{
+  border: 2px solid red;
+}
+.input-preenchido{
+  border: 2px solid green;
+}
+.erro {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
